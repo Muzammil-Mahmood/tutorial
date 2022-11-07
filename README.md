@@ -1,5 +1,7 @@
 ### Tutorial
 
+click [here] (https://muzammil-mahmood.github.io/tutorial/) to see the project.
+
 ## Explaining Calculator Project
 
 ##### __ Myself Muzammil Mahmood__
@@ -9,7 +11,7 @@ In this project I made a calculator using HTML, CSS, and JavaScript. I used diff
 so, here is my JavaScript code:
 
 
-...
+``` JavaScript
 'use strict';
 
 function loadnum(val)
@@ -43,5 +45,12 @@ function clearall()
 	document.getElementById("inputid2").value="";
 	document.getElementById('nowid').innerHTML="";
 }
-...
+```
+
+In this project overall, I use three functions 
+1: loadnum
+2: resultdisplay
+3: clearall
+
+I used "get element by id" to grab the id to perform its function on the web page.
 
