@@ -1,0 +1,166 @@
+@import './reset.css';
+
+
+
+body
+{
+	margin:0px;
+}
+.fulldiv
+{
+	width:100%;
+	height:100%;
+	background-color:gray;
+	float:left;
+}
+	.calculaterdiv
+	{
+		width:400px;
+		height:600px;
+		background-color:#333;
+		margin-left:100px;
+		margin-top:20px;
+		border-radius:10px;
+		float:left;
+	}
+		.calculater-subdiv
+		{
+			width:350px;
+			height:550px;
+			margin-left:25px;
+			margin-top:26px;
+			float:left;
+		}
+			.showresult-maindiv
+			{
+				width:100%;
+				height:100px;
+				background-color:#000;
+				margin-bottom:20px;
+				border-radius:10px;
+				float:left;
+			}
+				.showresult-oldoprationdiv
+				{
+					width:98%;
+					height:40px;
+					margin-bottom:5px;
+					margin-left:1%;
+					float:left;
+				}
+					.showresult-oldtxt
+					{
+						font-size:20px;
+						font-weight:500;
+						color:#FFF;
+						font-family: 'Open Sans', sans-serif;
+						text-align:right;
+						margin-top:10px;
+						margin-right:15px;
+						float:right;
+					}
+					.inputstyle
+					{
+						width:90%;
+						height:35px;
+						font-size:20px;
+						font-weight:500;
+						color:#FFF;
+						font-family: 'Open Sans', sans-serif;
+						text-align:right;
+						margin-top:2px;
+						margin-right:15px;
+						background-color:#000;
+						border:0px solid #000;
+						float:right;
+					}
+				.showresult-nowdiv
+				{
+					width:98%;
+					height:45px;
+					margin-top:5px;
+					margin-left:1%;
+					float:left;
+				}
+					.showresult-nowtxt
+					{
+						font-size:25px;
+						font-weight:500;
+						color:#FFF;
+						font-family: 'Open Sans', sans-serif;
+						text-align:right;
+						margin-top:5px;
+						margin-right:15px;
+						float:right;
+					}
+			
+		.fullwidthdiv
+		{
+			width:100%;
+			height:70px;
+			margin-bottom:10px;
+			float:left;
+		}
+			.clearbutton
+			{
+				width:240px;
+				height:65px;
+				font-size:20px;
+				font-weight:500;
+				color:#FFF;
+				background-color:#535766;
+				font-family: 'Open Sans', sans-serif;
+				margin-left:10px;
+				margin-right:10px;
+				border:0px solid #000;
+				border-radius:10px;
+				outline:none;
+				float:left;
+			}
+			.oprationbutton
+			{
+				width:65px;
+				height:65px;
+				font-size:22px;
+				font-weight:500;
+				color:#FFF;
+				background-color:orange;
+				font-family: 'Open Sans', sans-serif;
+				margin-left:10px;
+				margin-right:10px;
+				border:0px solid #000;
+				border-radius:10px;
+				float:left;
+			}
+			.numbutton
+			{
+				width:65px;
+				height:65px;
+				font-size:20px;
+				font-weight:500;
+				color:#FFF;
+				background-color:#535766;
+				font-family: 'Open Sans', sans-serif;
+				margin-left:11px;
+				margin-right:11px;
+				border:0px solid #000;
+				border-radius:10px;
+				outline:none;
+				float:left;
+			}
+			.zerobutton
+			{
+				width:150px;
+				height:65px;
+				font-size:20px;
+				font-weight:500;
+				color:#FFF;
+				background-color:#535766;
+				font-family: 'Open Sans', sans-serif;
+				margin-left:11px;
+				margin-right:11px;
+				border:0px solid #000;
+				border-radius:10px;
+				outline:none;
+				float:left;
+			}

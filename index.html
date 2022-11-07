@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="author" content="Andre Specht">
+ <meta name="description" content="My new cool project">
+ <meta name="keywords" content="HTML, CSS, SEO, web, web development">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap"> 
+ <title>JavaScript Final Project</title>
+ <link rel="shortcut icon" href="assets/favicon.png?v=2" type="image/x-icon">
+ <link rel="stylesheet" href="asset/style/index.css" media="screen">
+ <script src="asset/script/index.js" defer></script>
+ </head>
+ <body>
+   <div class="fulldiv">
+	
+	<div class="calculaterdiv">
+		<div class="calculater-subdiv">
+			<input type="hidden" id="inputid2" value="">
+			<div class="showresult-maindiv">
+				<div class="showresult-oldoprationdiv">
+					<input type="text" id="inputid" class="inputstyle">
+				</div>
+				<div class="showresult-nowdiv">
+					<p class="showresult-nowtxt" id="nowid">  </p>
+				</div>
+			</div>
+			<div class="fullwidthdiv">
+				<button class="clearbutton" onclick="clearall()"> clear </button>
+				<button class="oprationbutton" onclick="loadnum('/')"> / </button>
+			</div>
+			<div class="fullwidthdiv">
+				<button class="numbutton" onclick="loadnum(1)"> 1 </button>
+				<button class="numbutton" onclick="loadnum(2)"> 2 </button>
+				<button class="numbutton" onclick="loadnum(3)"> 3 </button>
+				<button class="oprationbutton" onclick="loadnum('*')"> * </button>
+			</div>
+			<div class="fullwidthdiv">
+				<button class="numbutton" onclick="loadnum(4)"> 4 </button>
+				<button class="numbutton" onclick="loadnum(5)"> 5 </button>
+				<button class="numbutton" onclick="loadnum(6)"> 6 </button>
+				<button class="oprationbutton" onclick="loadnum('-')"> - </button>
+			</div>
+			<div class="fullwidthdiv">
+				<button class="numbutton" onclick="loadnum(7)"> 7 </button>
+				<button class="numbutton" onclick="loadnum(8)"> 8 </button>
+				<button class="numbutton" onclick="loadnum(9)"> 9 </button>
+				<button class="oprationbutton" onclick="loadnum('+')"> + </button>
+			</div>
+			<div class="fullwidthdiv">
+				<button class="zerobutton" onclick="loadnum(0)"> 0 </button>
+				<button class="numbutton" onclick="loadnum('.')"> . </button>
+				<button class="oprationbutton" onclick="resultdisplay()"> = </button>
+			</div>
+		</div>
+	</div>
+  </div>
+ </body>
+</html>
